@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #e4e4e4;
+    font-family: "Vollkorn", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+header {
+    width: 100%;
+    height: 140px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 100px;
+    color: aliceblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+
+}
+
+.logo {
+    height: 120px;
+    width: auto;
+    display: flex;
+    align-items: center;
+     
+    
+
+}
+
+.logo img {
+    height: 120px;
+    width: auto;
+    margin-right: 40px;
+
+}
+
+.menu {
+    width: 850px;
+
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+
+}
+
+/*ESPECIFICIDADE*/
+.menu ul li a {
+    padding: 10px 40px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+}
+.menu ul li a:hover{
+    color:#D91E2E ;
+    background-color: #a8a6a6;
+}
+/*------HOME------*/
+
+.line_home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url(background.png);
+    background-size: cover;
+    
+}
+.conteiner{
+    border: 1px solid black;
+    width: 1200px;
+    height: 100%;
+   padding-top: 150px;
+   color: black;
+}
+.line{
+    width: 100%;
+    height: 100vh;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+/*-----Footer-----*/
+footer{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F2F2F2;
+    font-family: "Vollkorn", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+.column{
+    width: 400px;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-color: #F2F2F2;
+    
+}
+.column img{
+    height: 100px;
+    width: auto;
+}
