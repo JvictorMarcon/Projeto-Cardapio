@@ -93,6 +93,7 @@ header {
     background-image: url(backgrond.png);
     background-size: cover;
     font-size: 30px;
+    background-attachment: fixed;
     
     
 }
@@ -111,7 +112,6 @@ header {
     height: 250px;
     border: 1.4px #000 solid;
     border-radius: 10px;
-    padding: px;
     background-color:#D91E2E;
     box-shadow: 20px;
     display: flex;
@@ -151,7 +151,6 @@ header {
    padding-top: 150px;
    color: black;
    padding-left: 10px;
-   background-color: 
 }
 .conteiner h1{
     color: #D91E2E;
@@ -168,7 +167,8 @@ header {
     font-style: normal;
     align-items: end;
     padding-bottom: 80px;
-    text-shadow: 5px 5px px #000 ; 
+    text-shadow: 5px 5px 10px #000 ;
+     
 }
 .caixa_texto{
     height: 30px;
@@ -187,6 +187,7 @@ header {
     justify-content: center;
      background-image: url(fundo.jpg);
     background-size: cover;
+    
 }
 /*-----Footer-----*/
 footer{
